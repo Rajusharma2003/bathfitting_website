@@ -293,7 +293,7 @@
 
 /*** About ***/
 .video {
-    background: linear-gradient(rgba(180, 78, 78, 0.35), rgba(180, 78, 78, 0.85)), url(../img/video-bg.jpg) center center no-repeat;
+    background: linear-gradient(rgba(180, 78, 78, 0), rgba(180, 78, 78, 0)), url("https://bath-fixtures.myshopify.com/cdn/shop/files/banner-2_554acc84-fae7-4938-a2ce-e86365277dba_1920X.jpg?v=1613548634") center center no-repeat;
     background-size: cover;
 }
 
