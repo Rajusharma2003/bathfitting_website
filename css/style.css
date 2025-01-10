@@ -203,7 +203,7 @@
 }
 
 .page-header {
-    background: linear-gradient(rgba(180, 78, 78, 0.7), rgba(180, 78, 78, 0.7)), url(../img/carousel-1.jpg) center center no-repeat;
+    background: linear-gradient(rgba(78, 131, 180, 0.7), rgba(78, 131, 180, 0.7)), url("https://img.freepik.com/premium-photo/luxurious-apartment-with-contemporary-bathroom_872147-105935.jpg?ga=GA1.1.332943406.1726205077&semt=ais_hybrid") center center no-repeat;
     background-size: cover;
 }
 
@@ -548,3 +548,54 @@
     background-color: white;
     color: #222222;
   }
+
+
+/*--------------------------------------------------------------
+# Services Section
+--------------------------------------------------------------*/
+.services .service-item {
+    background-color: var(--surface-color);
+    text-align: center;
+    border: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
+    padding: 80px 20px;
+    height: 100%;
+    transition: all ease-in-out 0.3s;
+  }
+  
+  .services .service-item .icon {
+    background-color: red;
+    margin: 0 auto;
+    width: 64px;
+    height: 64px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    transition: 0.3s;
+  }
+  
+  .services .service-item .icon i {
+    font-size: 28px;
+    transition: ease-in-out 0.3s;
+  }
+  
+  .services .service-item h3 {
+    font-weight: 700;
+    margin: 10px 0 15px 0;
+    font-size: 22px;
+    transition: 0.3s;
+  }
+  
+  .services .service-item p {
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+  
+  .services .service-item:hover {
+    box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+    transform: translateY(-10px);
+  }
+
+  
