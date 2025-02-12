@@ -56,7 +56,7 @@
 
     // Product carousel
     $(".product-carousel").owlCarousel({
-        autoplay: false,
+        autoplay: true,
         smartSpeed: 1000,
         // margin: 25,
         loop: false,
@@ -93,6 +93,28 @@
         dots: true,
         nav: false,
     });
+
+    // Testimonial carousel
+    $(".testimonial-carousel2").owlCarousel({
+        autoplay: true,
+        smartSpeed: 1000,
+        loop: true,
+        dots: true,
+        nav: true, // Enable navigation buttons
+        navText: ["<i class='fas fa-chevron-left'></i>", "<i class='fas fa-chevron-right'></i>"], // Custom icons
+        responsive: {
+            0: {
+                items: 1 // 1 item for mobile screens
+            },
+            600: {
+                items: 2 // 2 items for tablets
+            },
+            1000: {
+                items: 3 // 3 items for desktops
+            }
+        }
+    });
+    
     
 })(jQuery);
 

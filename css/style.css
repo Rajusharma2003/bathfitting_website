@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #ED2F2F;
+    --primary: #309fa8;
     --secondary: #FB9F38;
     --light: #F5F8F2;
     --dark: #252C30;
@@ -423,7 +423,7 @@
 
 /*** Testimonial ***/
 .testimonial {
-    background: linear-gradient(rgba(180, 78, 78, 0.349), rgba(180, 78, 78, 0.85)), url("https://img.freepik.com/premium-photo/luxurious-bathroom-with-sleek-black-bathtub-wooden-bookshelf-cityscape-backdrop-3d-rendering_670147-91996.jpg?ga=GA1.1.332943406.1726205077&semt=ais_hybrid") center center no-repeat;
+    background: linear-gradient(rgb(0 0 0 / 44%), rgb(0 0 0)), url("https://img.freepik.com/premium-photo/luxurious-bathroom-with-sleek-black-bathtub-wooden-bookshelf-cityscape-backdrop-3d-rendering_670147-91996.jpg?ga=GA1.1.332943406.1726205077&semt=ais_hybrid") center center no-repeat;
     background-size: cover;
 }
 
