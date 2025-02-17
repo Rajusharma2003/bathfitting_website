@@ -10,7 +10,7 @@
     position: fixed;
     display: none;
     right: 30px;
-    bottom: 30px;
+    bottom: 95px;
     z-index: 99;
 }
 
@@ -511,7 +511,7 @@
 .whatsapp{
     position: fixed;
     bottom: 20px;
-    right: 80px;
+    right: 22px;
     width: 60px;
     height: 60px;
     display: flex;
