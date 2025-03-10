@@ -118,3 +118,44 @@
     
 })(jQuery);
 
+// JavaScript for Cursor Effect
+const cursor = document.querySelector(".custom-cursor");
+
+document.addEventListener("mousemove", (e) => {
+  const { clientX: x, clientY: y } = e;
+  cursor.style.transform = `translate(${x}px, ${y}px)`;
+});
+
+
+
+
+ // This is for the text animation
+ var spanText = function (text) {
+    var string = text.innerText;
+    var spaned = "";
+    for (var i = 0; i < string.length; i++) {
+      if (string.substring(i, i + 1) === " ") spaned += string.substring(i, i + 1);
+      else spaned += "<span>" + string.substring(i, i + 1) + "</span>";
+    }
+    text.innerHTML = spaned;
+  };
+  
+  // Select all h1 elements with class "animation"
+  let headlines = document.querySelectorAll("h1.animation");
+  
+  // Apply spanText to each h1 element
+  headlines.forEach((headline) => {
+    spanText(headline);
+  });
+  
+  // Apply animation delay to each letter
+  let animations = document.querySelectorAll(".animation");
+  
+  animations.forEach((animation) => {
+    let letters = animation.querySelectorAll("span");
+    letters.forEach((letter, i) => {
+      letter.style.animationDelay = i * 0.1 + "s";
+    });
+  });
+  
+    

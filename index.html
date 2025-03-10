@@ -73,6 +73,34 @@
                 background-color: rgb(0, 0, 0) !important;
             }
         }
+
+        /* This is for the text animation */
+        .textanim {
+            text-align: center;
+            text-transform: uppercase;
+            font-family: Helvetica, Arial, sans-serif;
+            font-size: 40px;
+            letter-spacing: 2px;
+            color: #333;
+            }
+            .textanim span {
+            display: inline-block;
+            animation: slideLeft 1.5s forwards;
+            opacity: 0;
+            transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+            }
+
+            @keyframes slideLeft {
+            from {
+                opacity: 0;
+                transform: translateX(200px);
+            } 
+            to {
+                opacity: 1;
+                transform: translateX(0%);
+            }
+            }
+
         
     </style>
 </head>
@@ -83,6 +111,9 @@
         <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
     </div>
     <!-- Spinner End -->
+
+    <!-- live cursor -->
+    <div class="custom-cursor"></div>
 
     
     <!-- Navbar Start -->
@@ -110,7 +141,8 @@
                                 <a href="#" class="dropdown-item">other product</a>
                             </div>
                         </div>
-                        <a href="#" class="nav-item nav-link text-white">Contact</a>
+                        <a href="contact.html" class="nav-item nav-link text-white">Contact</a>
+                        <a href="#" class="nav-item nav-link text-white">certificate</a>
                     </div>
                 </div>
             </nav>
@@ -129,8 +161,8 @@
                         <div class="container">
                             <div class="row">
                                 <div class="col-lg-7  text-sm-center">
-                                    <p class="fs-4 text-white animated zoomIn">IT'S HOW YOU LIVE</strong></p>
-                                    <h1 class="display-6 text-white mb-4 animated zoomIn">TAKE A FRESH LOOK <span>AT BATH FIXTURE</span></h1>
+                                    <p class="fs-4 text-white animation ">IT'S HOW YOU LIVE</strong></p>
+                                    <h1 class=" textanim display-6 text-white mb-4 animation">DESIGN MEETS FUNCTION IN EVERY FLOW</h1>
                                     <!-- <p class="fs-4 text-white animated zoomIn">FLAT 70% OFF / ALL PRODUCT</strong></p> -->
                                     <a href="" class="btn btn-primary fw-bold rounded-pill py-3 px-5 animated zoomIn">SHOP NOW</a>
                                 </div>
@@ -144,8 +176,8 @@
                         <div class="container">
                             <div class="row justify-content-end">
                                 <div class="col-lg-7 text-center">
-                                    <p class="fs-4 text-white animated zoomIn">IT'S HOW YOU LIVE</strong></p>
-                                    <h1 class="display-6 text-white mb-4 animated zoomIn">LOTS OF LUXURY <span>IN A LITTLE SPACE</span></h1>
+                                    <p class="fs-4 text-white animation">IT'S HOW YOU LIVE</strong></p>
+                                    <h1 class=" textanim display-6 text-white mb-4 animation">EFFORTLESS FLOW, ENDLESS COMFORT</h1>
                                     <!-- <p class="fs-4 text-white animated zoomIn">FLAT 70% OFF / ALL PRODUCT</strong></p> -->
                                     <a href="" class="btn btn-primary fw-bold rounded-pill py-3 px-5 animated zoomIn">SHOP NOW</a>
                                 </div>
@@ -168,49 +200,6 @@
     </div>
     <!-- Carousel End -->
 
-    <!-- About Start -->
-    <div id="about" class="container-xxl py-5 d-none">
-        <div class="container">
-            <div class="row g-5">
-                <div class="col-lg-6">
-                    <div class="row g-3">
-                            <img class="img-fluid bg-white w-100 mb-3 wow fadeIn" data-wow-delay="0.1s" src="img/about1.jpg" alt="">
-                            <img class="img-fluid bg-white w-50 wow fadeIn" data-wow-delay="0.2s" src="img/about3.jpg" alt="">
-                        </div>
-                        <div class="col-6">
-                            <img class="img-fluid bg-white w-50 mb-3 wow fadeIn" data-wow-delay="0.3s" src="img/about3.jpg" alt="">
-                            <img class="img-fluid bg-white w-100 wow fadeIn" data-wow-delay="0.4s" src="img/about2.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                    <div class="section-title">
-                        <p class="fs-5 fw-medium fst-italic text-primary">About Us</p>
-                        <h1 class="display-6">The success history of Chagan Lal in last years</h1>
-                    </div>
-                    <div class="row g-3 mb-4">
-                        <div class="col-sm-4">
-                            <img class="img-fluid bg-white w-100" src="img/about5.jpg" alt="">
-                        </div>
-                        <div class="col-sm-8">
-                            <h5>Our diet Helps in maintaining proper bodily functions and overall health</h5>
-                            <p class="mb-0">It includes Includes a diverse range of fruits, vegetables, whole grains, lean proteins, and healthy fats.</p>
-                        </div>
-                    </div>
-                    <div class="border-top mb-4"></div>
-                    <div class="row g-3">
-                        <div class="col-sm-8">
-                            <h5>Daily use of a cup of diet is good for your health</h5>
-                            <p class="mb-0">Diet Provides vitamins, minerals, proteins, fats, and carbohydrates necessary for energy, growth, and cellular repair.</p>
-                        </div>
-                        <div class="col-sm-4">
-                            <img class="img-fluid bg-white w-100" src="img/about6.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     <!-- About End -->
 
 
@@ -321,12 +310,32 @@
                     </div>
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                     <div class="section-title">
-                        <p class="fs-5 fw-medium fst-italic text-primary">Welcome To our shop!</p>
-                        <h1 class="display-6">
+                        <!-- <p class="fs-5 fw-medium fst-italic text-primary">Welcome To our shop!</p> -->
+                        <h1 class="display-7">
                             Transform Your Bathroom with Keppra Bath</h1>
                     </div>
-                    <p class="mb-4">Keppra Bath is committed to transforming bathrooms into spaces of comfort and elegance. We offer high-quality, rust-resistant drains and luxurious showers designed to blend style with durability. With innovation at our core, we deliver solutions that enhance your daily routine while ensuring long-lasting performance. Choose Keppra Bath for modern designs and unmatched reliability.</p>
-                    <!-- <p class="mb-4">A balanced diet provides the body with the essential nutrients required for energy, growth, and cellular repair. It comprises a diverse range of foods in appropriate proportions to ensure the intake of vitamins, minerals, proteins, fats, and carbohydrates.</p> -->
+                    <p class="mb-4"><span class="">Shri Krishna Enterprises</span> is one of the renowned makers of stainless steel floor drain & shower drain sinces 24 years under the brand name <span class="font-weight-bold">"Keppra"</span> in india.</p>
+                    <p class="mb-4">USP-Elegant design with ultimate
+                        durability & hassle free performance.
+                        Keppra Aqua Floor Drain is just an
+                        affordable one time solution to all your
+                        hygiene problems around kitchens,
+                        bathrooms, balconies, public areas and
+                        all possible (indoor) floor drainage
+                        areas made from Jindal AISI -304 (18/8)
+                        grade heavy duty stainless steel.</p>
+                    <p class="mb-4">Generally,the drainage area is
+                        considered to be ‘dirty' and
+                        ‘unhygienic’.Now with Keppra Floor
+                        Drains it secures your homes safe &
+                        ‘clean’ keeping hygiene on the top of
+                        mind of all family members. Besides it
+                        is easy to install & clean. It is an
+                        ultimate solution to all domestic
+                        usages.Designs are contemporary &
+                        stylish- you may even want to flaunt
+                        them.
+                        </p>
                     <a href="" class="btn btn-primary rounded-pill py-3 px-5">Read More</a>
                 </div>
             </div>
@@ -1650,15 +1659,15 @@
             <div class="row g-0 justify-content-center align-items-center">
                 <div class="col-lg-6 py-5 wow fadeIn" data-wow-delay="0.1s">
                     <div class="py-5 text-center">
-                        <h1 class="display-6 mb-4 text-primary">Elevate Your Bathroom Experience</span></h1>
-                        <h5 class="fw-normal lh-base fst-italic text-white mb-5"> Upgrade your space with durable, stylish drains and luxurious showers. Designed for efficiency and elegance, they bring comfort to every moment.</h5>
+                        <h1 class="display-6 mb-4 text-primary">Commited in Quality</span></h1>
+                        <h5 class="fw-normal lh-base fst-italic text-white mb-5">We prioritize excellence in every detail, ensuring durable, reliable, and innovative solutions. Quality isn’t just a standard—it’s our promise.</h5>
                         <div class="row g-4 mb-5 text-start">
                             <div class="col-sm-6">
                                 <div class="d-flex align-items-center">
                                     <div class="flex-shrink-0 btn-lg-square bg-white text-primary rounded-circle me-3">
                                         <i class="fa fa-check"></i>
                                     </div>
-                                    <span class="text-light">Enhances Mental Well-Being</span>
+                                    <span class="text-light">No insect menace through floor drain.</span>
                                 </div>
                             </div>
                             <div class="col-sm-6">
@@ -1666,7 +1675,7 @@
                                     <div class="flex-shrink-0 btn-lg-square bg-white text-primary rounded-circle me-3">
                                         <i class="fa fa-check"></i>
                                     </div>
-                                    <span class="text-light">Supports Vital Functions</span>
+                                    <span class="text-light">Though time to insects like cockroaches etc.</span>
                                 </div>
                             </div>
                             <div class="col-sm-6">
@@ -1674,7 +1683,7 @@
                                     <div class="flex-shrink-0 btn-lg-square bg-white text-primary rounded-circle me-3">
                                         <i class="fa fa-check"></i>
                                     </div>
-                                    <span class="text-light">Reduces Disease Risk</span>
+                                    <span class="text-light">Safe for children and elders.</span>
                                 </div>
                             </div>
                             <div class="col-sm-6">
@@ -1682,7 +1691,7 @@
                                     <div class="flex-shrink-0 btn-lg-square bg-white text-primary rounded-circle me-3">
                                         <i class="fa fa-check"></i>
                                     </div>
-                                    <span class="text-light">Boosts Health and Beauty</span>
+                                    <span class="text-light">Prevents foul odour</span>
                                 </div>
                             </div>
                         </div>
@@ -1992,9 +2001,10 @@
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="h-100">
                         <iframe class="w-100 rounded"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001156.4288297426!2d-78.01371936852176!3d42.72876761954724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sNew%20York%2C%20USA!5e0!3m2!1sen!2sbd!4v1603794290143!5m2!1sen!2sbd"
+                        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2768.530469050741!2d77.10373597549976!3d28.60420477568028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjjCsDM2JzE1LjEiTiA3N8KwMDYnMjIuNyJF!5e1!3m2!1sen!2sin!4v1741601731637!5m2!1sen!2sin"
                         frameborder="0" style="height: 100%; min-height: 300px; border:0;" allowfullscreen="" aria-hidden="false"
                         tabindex="0"></iframe>
+
                     </div>
                 </div>
             </div>
@@ -2004,7 +2014,7 @@
 
     
     <!-- this is the Blog section Start -->
-    <div id="store" class="container-xxl py-5">
+    <div id="store" class="d-none container-xxl py-5">
         <div class="container">
             <div class="section-title text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
                 
@@ -2074,14 +2084,14 @@
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-primary mb-4">Business Hours</h4>
                     <p class="mb-1">Monday - Friday</p>
-                    <h6 class="text-light">09:00 am - 07:00 pm</h6>
+                    <h6 class="text-light">09:00 am - 6:00 pm</h6>
                     <p class="mb-1">Saturday</p>
-                    <h6 class="text-light">09:00 am - 12:00 pm</h6>
+                    <h6 class="text-light">09:00 am - 6:00 pm</h6>
                     <p class="mb-1">Sunday</p>
                     <h6 class="text-light">Closed</h6>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h4 class="text-primary mb-4">Our Office</h4>
+                    <h4 class="text-primary mb-4">Shri Krishna Enterprises with ISO Approved</h4>
                     <p class="mb-2"><i class="fa fa-map-marker-alt text-primary me-3"></i>RZ-16A/15E Street No.2, Main Sagar Pur, New Delhi-110046</p>
                     <p class="mb-2"><i class="fa fa-phone-alt text-primary me-3"></i>+91 959 905 0508</p>
                     <p class="mb-2"><i class="fa fa-envelope text-primary me-3"></i><a href="mailto:info@kepprabath.com" class="text-white">
@@ -2184,8 +2194,12 @@
 
             });
         });
+
+   
     </script>
     <!-- End product carousel -->
+
+    
 </body>
 
 </html>
