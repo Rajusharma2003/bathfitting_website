@@ -8606,6 +8606,9 @@ fieldset:disabled .btn {
 .rounded-3 {
     border-radius: 4px !important
 }
+.rounded-4 {
+    border-radius: 33px !important
+}
 
 .rounded-circle {
     border-radius: 50% !important
