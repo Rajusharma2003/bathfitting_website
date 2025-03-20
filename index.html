@@ -107,8 +107,8 @@
 
 <body>
     <!-- Spinner Start -->
-    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
+    <div id="spinner" class="d-flex align-items-center bg-white justify-content-center position-fixed w-100 show start-50 top-50 translate-middle vh-100">
+        <div class="text-primary spinner-border" role="status" style="width: 3rem; height: 3rem;"></div>
     </div>
     <!-- Spinner End -->
 
@@ -119,30 +119,30 @@
     <!-- Navbar Start -->
     <div class="container-fluid bg-transparent" style="position: relative; z-index: 999;">
         <div class="container">
-            <nav class="navbar navbar-expand-lg   navbar-light py-2 py-lg-0">
+            <nav class="navbar navbar-expand-lg navbar-light py-2 py-lg-0">
                 <a href="index.html" class="navbar-brand">
                     <img class="img-fluid" style="border-bottom-right-radius: 10px; border-bottom-left-radius: 10px;" src="img/dsfhfgh.jpg" alt="Logo">
                 </a>
-                <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <button type="button" class="navbar-toggler me-0 ms-auto" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse p-3 mt-2" id="navbarCollapse">
                     <div class="navbar-nav ms-auto">
-                        <a href="#" class="nav-item nav-link active ">Home</a>
-                        <a href="about.html" class="nav-item nav-link ">About</a>
+                        <a href="#" class="nav-item nav-link active">Home</a>
+                        <a href="about.html" class="nav-item nav-link">About</a>
                         <!-- <a href="store.html" class="nav-item nav-link">Products</a> -->
                         <!-- <a href="store.html" class="nav-item nav-link">Product</a> -->
-                        <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle " data-bs-toggle="dropdown">Product</a>
-                            <div class="dropdown-menu bg-light rounded-0 m-0">
-                                <a href="#" class="dropdown-item ">product 1</a>
+                        <div class="dropdown nav-item">
+                            <a href="#" class="dropdown-toggle nav-link" data-bs-toggle="dropdown">Product</a>
+                            <div class="dropdown-menu bg-light m-0 rounded-0">
+                                <a href="#" class="dropdown-item">product 1</a>
                                 <a href="#" class="dropdown-item">other Product</a>
                                 <a href="#" class="dropdown-item">other product</a>
                                 <a href="#" class="dropdown-item">other product</a>
                             </div>
                         </div>
-                        <a href="contact.html" class="nav-item nav-link ">Contact</a>
-                        <a href="#" class="nav-item nav-link ">certificate</a>
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        <a href="#" class="nav-item nav-link">certificate</a>
                     </div>
                 </div>
             </nav>
@@ -152,19 +152,19 @@
 
 
     <!-- Carousel Start @@@-->
-    <div class="container-fluid  px-0 mb-5" style="position: absolute; top: 0;">
-        <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="container-fluid mb-5 px-0" style="position: absolute; top: 0;">
+        <div id="header-carousel" class="carousel carousel-fade slide" data-bs-ride="carousel">
             <div class="carousel-inner">
-                <div class="carousel-item active">
+                <div class="active carousel-item">
                     <img class="w-100" src="img/banner2.jpg" alt="Image">
                     <div class="carousel-caption">
                         <div class="container">
                             <div class="row">
                                 <div class="col-lg-7 text-sm-center">
-                                    <p class="fs-4  animation text-dark">IT'S HOW YOU LIVE</strong></p>
-                                    <h1 class=" textanim display-6  mb-4 animation">DESIGN MEETS FUNCTION IN EVERY FLOW</h1>
-                                    <!-- <p class="fs-4 text-white animated zoomIn">FLAT 70% OFF / ALL PRODUCT</strong></p> -->
-                                    <a href="" class="btn btn-primary fw-bold rounded-pill py-3 px-5 animated zoomIn">SHOP NOW</a>
+                                    <p class="text-dark animation fs-4">IT'S HOW YOU LIVE</strong></p>
+                                    <h1 class="display-6 animation mb-4 textanim">DESIGN MEETS FUNCTION IN EVERY FLOW</h1>
+                                    <!-- <p class="text-white animated fs-4 zoomIn">FLAT 70% OFF / ALL PRODUCT</strong></p> -->
+                                    <a href="" class="btn btn-primary rounded-pill animated fw-bold px-5 py-3 zoomIn">SHOP NOW</a>
                                 </div>
                             </div>
                         </div>
@@ -176,10 +176,10 @@
                         <div class="container">
                             <div class="row justify-content-end">
                                 <div class="col-lg-7 text-center">
-                                    <p class="fs-4 animation text-dark">IT'S HOW YOU LIVE</strong></p>
-                                    <h1 class=" textanim display-6  mb-4 animation">EFFORTLESS FLOW, ENDLESS COMFORT</h1>
-                                    <!-- <p class="fs-4 text-white animated zoomIn">FLAT 70% OFF / ALL PRODUCT</strong></p> -->
-                                    <a href="" class="btn btn-primary fw-bold rounded-pill py-3 px-5 animated zoomIn">SHOP NOW</a>
+                                    <p class="text-dark animation fs-4">IT'S HOW YOU LIVE</strong></p>
+                                    <h1 class="display-6 animation mb-4 textanim">EFFORTLESS FLOW, ENDLESS COMFORT</h1>
+                                    <!-- <p class="text-white animated fs-4 zoomIn">FLAT 70% OFF / ALL PRODUCT</strong></p> -->
+                                    <a href="" class="btn btn-primary rounded-pill animated fw-bold px-5 py-3 zoomIn">SHOP NOW</a>
                                 </div>
                             </div>
                         </div>
@@ -201,15 +201,15 @@
     <!-- Carousel End -->
 
     <!-- This is the four card section @@@-->
-    <div id="product" class="container-fluid product py-5 my-5 ">
+    <div id="product" class="container-fluid my-5 product py-5">
         <div class="container py-6">
-            <div class="section-title text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                <p class="fs-5 fw-medium fst-italic text-primary">Our Products</p>
+            <div class="text-center fadeInUp mx-auto section-title wow" data-wow-delay="0.1s" style="max-width: 500px;">
+                <p class="text-primary fs-5 fst-italic fw-medium">Our Products</p>
                 <h3 class="display-6">diet has a complex positive effect on the body</h3>
             </div>
-            <div class="owl-carousel product-carousel wow fadeInUp" data-wow-delay="0.5s">
+            <div class="fadeInUp owl-carousel product-carousel wow" data-wow-delay="0.5s">
                 <!-- Card 1 -->
-                <div class="card text-center bg-light">
+                <div class="card bg-light text-center">
                     <img class="card-img-top p-4 rounded-circle" src="img/product/p1.png" alt="Title" />
                     <div class="card-body">
                         <h4 class="card-title">luxurious Drainer</h4>
@@ -243,7 +243,7 @@
                 </div>
                 <!-- Card 4 -->
                 <div class="card text-center" style="background-color: #1d3750;">
-                    <img class="card-img-top p-4 rounded-circle " src="img/product/p4.png" alt="Title" />
+                    <img class="card-img-top p-4 rounded-circle" src="img/product/p4.png" alt="Title" />
                     <div class="card-body">
                         <h4 class="card-title text-white">Ariq Colour</h4>
                         <p class="card-text text-white">KEPP-122</p>
@@ -254,39 +254,39 @@
                 </div>
                 <!-- Card 4 -->
                 <div class="card text-center" >
-                    <img class="card-img-top p-4 rounded-circle " src="img/product/p5.png" alt="Title" />
+                    <img class="card-img-top p-4 rounded-circle" src="img/product/p5.png" alt="Title" />
                     <div class="card-body">
                         <h4 class="card-title">Quarda Colour</h4>
                         <p class="card-text">KEPP-121</p>
-                        <p class="card-text ">Durable, rust-resistant, and sleek, our Drain Jali ensures smooth water flow and a tidy bathroom.</p>
+                        <p class="card-text">Durable, rust-resistant, and sleek, our Drain Jali ensures smooth water flow and a tidy bathroom.</p>
                         <!-- Read me button -->
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                 </div>
                 <!-- Card 4 -->
                 <div class="card text-center" style="background-color: #1d3750;">
-                    <img class="card-img-top p-4 rounded-circle " src="img/product/p6.png" alt="Title" />
+                    <img class="card-img-top p-4 rounded-circle" src="img/product/p6.png" alt="Title" />
                     <div class="card-body">
                         <h4 class="card-title text-white">Ovio Colour</h4>
                         <p class="card-text text-white">KEPP-120</p>
-                        <p class="card-text text-white ">Durable, rust-resistant, and sleek, our Drain Jali ensures smooth water flow and a tidy bathroom.</p>
+                        <p class="card-text text-white">Durable, rust-resistant, and sleek, our Drain Jali ensures smooth water flow and a tidy bathroom.</p>
                         <!-- Read me button -->
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                 </div>
                 <div class="card text-center">
-                    <img class="card-img-top p-4 rounded-circle " src="img/product/p7.png" alt="Title" />
+                    <img class="card-img-top p-4 rounded-circle" src="img/product/p7.png" alt="Title" />
                     <div class="card-body">
                         <h4 class="card-title">Marble Insert Colour</h4>
                         <p class="card-text">KEPP-119</p>
-                        <p class="card-text ">Durable, rust-resistant, and sleek, our Drain Jali ensures smooth water flow and a tidy bathroom.</p>
+                        <p class="card-text">Durable, rust-resistant, and sleek, our Drain Jali ensures smooth water flow and a tidy bathroom.</p>
                         <!-- Read me button -->
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                 </div>
             </div>
             <div>
-                <h1 class="text-center pt-5 text-white">Renowned Specialists in Bath Fixtures!</h1>
+                <h1 class="text-center text-white pt-5">Renowned Specialists in Bath Fixtures!</h1>
             </div>
         </div>
     </div>
@@ -294,23 +294,19 @@
 
 
     <!-- about me Start @@@-->
-    <div class="container-xxl py-5 overflow-hidden">
+    <div class="container-xxl overflow-hidden py-5">
         <div class="">
-            <div class="row g-5">
-                <div class="col-lg-7 wow fadeIn" data-wow-delay="0.1s">
-                    <div class="grid-banner-type-32">
-                        <div class="ovrly09 rounded-4">
-                            <div class="overlay"></div>
-                            <video class="video-fluid" autoplay muted loop>
-                                <source src="img/aboutvideo.mp4" type="video/mp4">
-                                
-                            </video>
-                        </div>
-                    </div>       
+            <div class="g-5 row">
+                <div class="col-12 col-lg-7">
+                    <div class="rounded-4 overflow-hidden">
+                        <video autoplay muted loop playsinline class="h-100 w-100">
+                            <source src="img/aboutvideo.mp4" type="video/mp4">
+                        </video>
                     </div>
-                <div class="col-lg-5 wow fadeIn" data-wow-delay="0.5s">
+                </div>
+                <div class="col-lg-5 fadeIn wow" data-wow-delay="0.5s">
                     <div class="section-title">
-                        <!-- <p class="fs-5 fw-medium fst-italic text-primary">Welcome To our shop!</p> -->
+                        <!-- <p class="text-primary fs-5 fst-italic fw-medium">Welcome To our shop!</p> -->
                         <h1 class="display-7">
                             Transform Your Bathroom with Keppra Bath</h1>
                     </div>
@@ -336,7 +332,7 @@
                         stylish- you may even want to flaunt
                         them.
                         </p>
-                    <a href="" class="btn btn-primary rounded-pill py-3 px-5">Read More</a>
+                    <a href="" class="btn btn-primary rounded-pill px-5 py-3">Read More</a>
                 </div>
             </div>
         </div>
@@ -344,15 +340,15 @@
     <!-- about me End -->
 
     <!-- product luxurious Start -->
-    <div id="product" class="container-fluid  py-5 my-5 ">
+    <div id="product" class="container-fluid my-5 py-5">
         <div class="container py-6">
-            <div class="section-title text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                <p class="fs-5 fw-medium fst-italic text-primary">Our Products</p>
-                <h1 class="display-6  pb-4">Our <span class="text-primary">luxurious</span> Product</h1>
+            <div class="text-center fadeInUp mx-auto section-title wow" data-wow-delay="0.1s" style="max-width: 500px;">
+                <p class="text-primary fs-5 fst-italic fw-medium">Our Products</p>
+                <h1 class="display-6 pb-4">Our <span class="text-primary">luxurious</span> Product</h1>
             </div>
-            <div class="owl-carousel product-carousel wow fadeInUp" data-wow-delay="0.5s">
+            <div class="fadeInUp owl-carousel product-carousel wow" data-wow-delay="0.5s">
                 <!-- Card 1 -->
-                <div class="card text-center bg-light">
+                <div class="card bg-light text-center">
                     <img class="card-img-top p-4 rounded-circle" src="img/product/p1.png" alt="Title" />
                     <div class="card-body">
                         <h4 class="card-title">luxurious Drainer</h4>
@@ -386,7 +382,7 @@
                 </div>
                 <!-- Card 4 -->
                 <div class="card text-center" style="background-color: #1d3750;">
-                    <img class="card-img-top p-4 rounded-circle " src="img/product/p4.png" alt="Title" />
+                    <img class="card-img-top p-4 rounded-circle" src="img/product/p4.png" alt="Title" />
                     <div class="card-body">
                         <h4 class="card-title text-white">Ariq Colour</h4>
                         <p class="card-text text-white">KEPP-122</p>
@@ -397,32 +393,32 @@
                 </div>
                 <!-- Card 4 -->
                 <div class="card text-center" >
-                    <img class="card-img-top p-4 rounded-circle " src="img/product/p5.png" alt="Title" />
+                    <img class="card-img-top p-4 rounded-circle" src="img/product/p5.png" alt="Title" />
                     <div class="card-body">
                         <h4 class="card-title">Quarda Colour</h4>
                         <p class="card-text">KEPP-121</p>
-                        <p class="card-text ">Durable, rust-resistant, and sleek, our Drain Jali ensures smooth water flow and a tidy bathroom.</p>
+                        <p class="card-text">Durable, rust-resistant, and sleek, our Drain Jali ensures smooth water flow and a tidy bathroom.</p>
                         <!-- Read me button -->
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                 </div>
                 <!-- Card 4 -->
                 <div class="card text-center" style="background-color: #1d3750;">
-                    <img class="card-img-top p-4 rounded-circle " src="img/product/p6.png" alt="Title" />
+                    <img class="card-img-top p-4 rounded-circle" src="img/product/p6.png" alt="Title" />
                     <div class="card-body">
                         <h4 class="card-title text-white">Ovio Colour</h4>
                         <p class="card-text text-white">KEPP-120</p>
-                        <p class="card-text text-white ">Durable, rust-resistant, and sleek, our Drain Jali ensures smooth water flow and a tidy bathroom.</p>
+                        <p class="card-text text-white">Durable, rust-resistant, and sleek, our Drain Jali ensures smooth water flow and a tidy bathroom.</p>
                         <!-- Read me button -->
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                 </div>
                 <div class="card text-center">
-                    <img class="card-img-top p-4 rounded-circle " src="img/product/p7.png" alt="Title" />
+                    <img class="card-img-top p-4 rounded-circle" src="img/product/p7.png" alt="Title" />
                     <div class="card-body">
                         <h4 class="card-title">Marble Insert Colour</h4>
                         <p class="card-text">KEPP-119</p>
-                        <p class="card-text ">Durable, rust-resistant, and sleek, our Drain Jali ensures smooth water flow and a tidy bathroom.</p>
+                        <p class="card-text">Durable, rust-resistant, and sleek, our Drain Jali ensures smooth water flow and a tidy bathroom.</p>
                         <!-- Read me button -->
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
@@ -434,10 +430,10 @@
 
 
     <!-- This is the product carousel section -->
-    <div class="container-xxl px-5 pb-5">
-        <div class="section-title text-start  wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-            <!-- <p class="fs-5 fw-medium fst-italic text-primary">Our Products</p> -->
-            <h1 class="display-6  pb-4">Our <span class="text-primary">Preminum </span>Product</h1>
+    <div class="container-xxl pb-5 px-5">
+        <div class="text-start fadeInUp section-title wow" data-wow-delay="0.1s" style="max-width: 500px;">
+            <!-- <p class="text-primary fs-5 fst-italic fw-medium">Our Products</p> -->
+            <h1 class="display-6 pb-4">Our <span class="text-primary">Preminum </span>Product</h1>
         </div>
         <div class="testimonial-slider" >
             <!-- Card -->
@@ -449,7 +445,7 @@
                         <p class="card-text">Classa Series – Durable and efficient channel drainer for smooth water drainage, ideal for various applications.</p>
                     </div>
                     <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                 </div>
@@ -463,7 +459,7 @@
                         <p class="card-text">Ariq Series – Durable and efficient channel drainer for smooth water drainage, ideal for various applications.</p>
                     </div>
                     <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                 </div>
@@ -477,7 +473,7 @@
                         <p class="card-text">Quarda Series – High-performance channel drainer designed for efficient water flow and durability, perfect for various applications.</p>
                     </div>
                     <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                 </div>
@@ -491,7 +487,7 @@
                         <p class="card-text">Piano Series – Sleek and modern channel drainer, combining style and functionality for effective water drainage.</p>
                     </div>
                     <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                 </div>
@@ -505,7 +501,7 @@
                         <p class="card-text">Marble Series – Premium channel drainer with an elegant finish, offering both aesthetic appeal and superior drainage efficiency.</p>
                     </div>
                     <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                 </div>
@@ -519,7 +515,7 @@
                         <p class="card-text">Ovio Series – Reliable and durable channel drainer, designed for efficient water drainage across multiple applications.</p>
                     </div>
                     <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                 </div>
@@ -530,12 +526,12 @@
 
 
     <!-- This 2 is the product carousel section SHOWER CHANNEL DRAINER -->
-    <div class="container-xxl px-5 pb-5">
-        <div class="section-title text-start  wow fadeInUp" data-wow-delay="0.1s" >
-            <h1 class="display-6  pb-4">SHOWER CHANNEL DRAINER</h1>
-            <p class="fs-5 fw-medium fst-italic text-primary">Our Products</p>
+    <div class="container-xxl pb-5 px-5">
+        <div class="text-start fadeInUp section-title wow" data-wow-delay="0.1s" >
+            <h1 class="display-6 pb-4">SHOWER CHANNEL DRAINER</h1>
+            <p class="text-primary fs-5 fst-italic fw-medium">Our Products</p>
         </div>
-        <div class="testimonial-slider ">
+        <div class="testimonial-slider">
             <!-- Card -->
             <div class="px-3">
                 <div class="card text-start">
@@ -544,7 +540,7 @@
                         <h4 class="card-title">WAVE SHOWER CHANNEL DRAINER</h4>
                         <p class="card-text">Stylish and efficient shower channel drainer designed to ensure smooth water flow with a modern wave pattern.</p>
                         <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                     </div>
@@ -558,7 +554,7 @@
                         <h4 class="card-title">SQUARE SHOWER CHANNEL DRAINER</h4>
                         <p class="card-text">Compact and functional shower channel drainer with a square design, perfect for contemporary bathrooms.</p>
                         <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                     </div>
@@ -572,7 +568,7 @@
                         <h4 class="card-title">LANE SHOWER CHANNEL DRAINER</h4>
                         <p class="card-text"> Sleek and durable shower channel drainer, providing efficient water drainage in a streamlined lane design.</p>
                         <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                     </div>
@@ -586,7 +582,7 @@
                         <h4 class="card-title">TILE INSERT CHANNEL DRAINER</h4>
                         <p class="card-text">Seamlessly blends with flooring, offering a discreet yet effective channel drainer for a clean aesthetic.</p>
                         <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                     </div>
@@ -600,7 +596,7 @@
                         <h4 class="card-title">TULIP CHANNEL DRAINER</h4>
                         <p class="card-text">Elegant channel drainer with a tulip-inspired design, ensuring both style and functionality.</p>
                         <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                     </div>
@@ -614,7 +610,7 @@
                         <h4 class="card-title">DRIZZLE CHANNEL DRAINER</h4>
                         <p class="card-text">Modern and efficient channel drainer, designed to handle water flow effortlessly with a unique drizzle pattern.</p>
                         <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                     </div>
@@ -628,7 +624,7 @@
                         <h4 class="card-title">ARROW CHANNEL DRAINER</h4>
                         <p class="card-text">Precision-engineered channel drainer featuring an arrow design for optimal drainage performance.</p>
                         <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                     </div>
@@ -642,7 +638,7 @@
                         <h4 class="card-title">LOTUS CHANNEL DRAINER</h4>
                         <p class="card-text">Aesthetic channel drainer with a lotus-inspired pattern, combining beauty with superior drainage efficiency.</p>
                         <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                     </div>
@@ -657,7 +653,7 @@
                         <h4 class="card-title">MODERN CHANNEL DRAINER</h4>
                         <p class="card-text">Contemporary channel drainer with a minimalist design, ideal for modern spaces requiring effective water management.</p>
                         <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                     </div>
@@ -671,7 +667,7 @@
                         <h4 class="card-title">SINGLE ARROW CHANNEL DRAINER</h4>
                         <p class="card-text">Smart and stylish channel drainer, featuring a single arrow pattern for smooth water flow.</p>
                         <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                     </div>
@@ -685,7 +681,7 @@
                         <h4 class="card-title">EVA CHANNEL DRAINER</h4>
                         <p class="card-text">Durable and efficient channel drainer, built for long-lasting performance in various applications.</p>
                         <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                     </div>
@@ -699,7 +695,7 @@
                         <h4 class="card-title">SLIM EVA CHANNEL DRAINER</h4>
                         <p class="card-text">A sleek and space-saving channel drainer, offering the same durability in a slimmer profile.</p>
                         <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                     </div>
@@ -713,7 +709,7 @@
                         <h4 class="card-title">HDPE DRAIN</h4>
                         <p class="card-text">High-density polyethylene drain designed for excellent resistance to chemicals and heavy-duty applications.</p>
                         <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                     </div>
@@ -727,7 +723,7 @@
                         <h4 class="card-title">HDPE WITH SS DRAIN</h4>
                         <p class="card-text">A combination of HDPE and stainless steel, providing enhanced strength and durability for superior drainage performance.</p>
                         <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                     </div>
@@ -741,7 +737,7 @@
                         <h4 class="card-title">FLOWISTA KITCHEN DRAINER</h4>
                         <p class="card-text">High-performance kitchen drainer, designed for smooth water flow and efficient waste management in kitchen spaces.</p>
                         <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                     </div>
@@ -753,10 +749,10 @@
 
 
     <!-- This 3 is the product carousel section SQUARE FLOOR DRAIN SERIES -->
-    <div class="container-xxl px-5 pb-5">
-        <div class="section-title text-start  wow fadeInUp" data-wow-delay="0.1s" >
-            <h1 class="display-6  pb-4">SQUARE FLOOR DRAIN SERIES</h1>
-            <p class="fs-5 fw-medium fst-italic text-primary">Our Products</p>
+    <div class="container-xxl pb-5 px-5">
+        <div class="text-start fadeInUp section-title wow" data-wow-delay="0.1s" >
+            <h1 class="display-6 pb-4">SQUARE FLOOR DRAIN SERIES</h1>
+            <p class="text-primary fs-5 fst-italic fw-medium">Our Products</p>
         </div>
         <div class="testimonial-slider">
             <!-- Card -->
@@ -767,7 +763,7 @@
                         <h4 class="card-title">SMART TILE INSERT FLOOR GRATING</h4>
                         <p class="card-text">A seamless floor grating that blends with tiles, providing efficient drainage while maintaining a clean and modern look.</p>
                         <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                     </div>
@@ -781,7 +777,7 @@
                         <h4 class="card-title">MAGIC (2 IN 1) FLOOR GRATING</h4>
                         <p class="card-text">Versatile floor grating with a dual-function design, allowing for both tile insert and regular grating use.</p>
                         <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                     </div>
@@ -795,7 +791,7 @@
                         <h4 class="card-title">MARBLE INSERT KEPP-252</h4>
                         <p class="card-text">Premium floor drain with a marble insert design, combining elegance with effective drainage performance.</p>
                         <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                     </div>
@@ -809,7 +805,7 @@
                         <h4 class="card-title">OVIO KEPP-253</h4>
                         <p class="card-text">Stylish and durable floor drain, designed for smooth water flow and long-lasting performance.</p>
                         <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                     </div>
@@ -823,7 +819,7 @@
                         <h4 class="card-title">QUARDA KEPP-254</h4>
                         <p class="card-text"> High-quality floor drain with a modern square design, ensuring efficient water drainage.</p>
                         <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                     </div>
@@ -837,7 +833,7 @@
                         <h4 class="card-title">ARIQ KEPP-255</h4>
                         <p class="card-text">Contemporary floor drain featuring a sleek design, ideal for modern spaces.</p>
                         <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                     </div>
@@ -851,7 +847,7 @@
                         <h4 class="card-title">KEPP-256</h4>
                         <p class="card-text">Reliable and sturdy floor drain, designed for high-performance drainage in various applications.</p>
                         <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                     </div>
@@ -865,7 +861,7 @@
                         <h4 class="card-title">KEPP-256H</h4>
                         <p class="card-text"> Heavy-duty floor drain, offering superior strength and efficiency for demanding environments.</p>
                         <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                     </div>
@@ -879,7 +875,7 @@
                         <h4 class="card-title">KEPP-258</h4>
                         <p class="card-text">Compact and efficient floor drain, ensuring smooth water flow with a sleek and durable design.</p>
                         <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                     </div>
@@ -890,10 +886,10 @@
      <!-- End prodcut carousel section -->
 
     <!-- This 4 is the product carousel ROUND & SQUARE  JALI SET -->
-    <div class="container-xxl px-5 pb-5">
-        <div class="section-title text-start  wow fadeInUp" data-wow-delay="0.1s">
-            <h1 class="display-6  pb-4">ROUND & SQUARE  JALI SET</h1>
-            <p class="fs-5 fw-medium fst-italic text-primary">Our Products</p>
+    <div class="container-xxl pb-5 px-5">
+        <div class="text-start fadeInUp section-title wow" data-wow-delay="0.1s">
+            <h1 class="display-6 pb-4">ROUND & SQUARE  JALI SET</h1>
+            <p class="text-primary fs-5 fst-italic fw-medium">Our Products</p>
         </div>
         <div class="testimonial-slider">
             <!-- Card -->
@@ -904,7 +900,7 @@
                         <h4 class="card-title">KEPP-296</h4>
                         <p class="card-text">Sturdy and efficient jali set, designed for smooth water drainage with a modern finish.</p>
                         <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                     </div>
@@ -918,7 +914,7 @@
                         <h4 class="card-title">KEPP-296H</h4>
                         <p class="card-text">Heavy-duty jali set, offering enhanced durability and performance for high-flow areas.</p>
                         <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                     </div>
@@ -932,7 +928,7 @@
                         <h4 class="card-title">KEPP-299</h4>
                         <p class="card-text">High-quality jali set with a sleek design, ensuring effective drainage in various applications.</p>
                         <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                     </div>
@@ -946,7 +942,7 @@
                         <h4 class="card-title">KEPP-299H</h4>
                         <p class="card-text">Reinforced jali set, built for heavy-duty use with superior strength and durability.</p>
                         <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                     </div>
@@ -960,7 +956,7 @@
                         <h4 class="card-title">KEPP-302</h4>
                         <p class="card-text">Reliable jali set, featuring a well-structured design for optimal water flow.</p>
                         <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                     </div>
@@ -974,7 +970,7 @@
                         <h4 class="card-title">KEPP-302H</h4>
                         <p class="card-text">Heavy-duty jali set, ideal for areas requiring robust drainage solutions.</p>
                         <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                     </div>
@@ -988,7 +984,7 @@
                         <h4 class="card-title">KEPP-305</h4>
                         <p class="card-text">Compact and efficient jali set, designed for smooth water passage and easy maintenance.</p>
                         <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                     </div>
@@ -1002,7 +998,7 @@
                         <h4 class="card-title">KEPP-308</h4>
                         <p class="card-text">Versatile jali set, combining durability with a contemporary design for effective drainage.</p>
                         <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                     </div>
@@ -1016,7 +1012,7 @@
                         <h4 class="card-title">KEPP-308H</h4>
                         <p class="card-text">Reinforced jali set, built for high-load applications with superior water flow efficiency.</p>
                         <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                     </div>
@@ -1030,7 +1026,7 @@
                         <h4 class="card-title">KEPP-308</h4>
                         <p class="card-text">Body</p>
                         <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                     </div>
@@ -1044,7 +1040,7 @@
                         <h4 class="card-title">KEPP-321</h4>
                         <p class="card-text">Modern jali set, ensuring efficient drainage with a sleek and functional design.</p>
                         <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                     </div>
@@ -1058,7 +1054,7 @@
                         <h4 class="card-title">KEPP-321H</h4>
                         <p class="card-text">Heavy-duty jali set, designed for durability and high-performance water drainage.</p>
                         <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                     </div>
@@ -1072,7 +1068,7 @@
                         <h4 class="card-title">KEPP-323</h4>
                         <p class="card-text">Premium jali set, offering a combination of aesthetics and functionality for superior drainage.</p>
                         <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                     </div>
@@ -1086,7 +1082,7 @@
                         <h4 class="card-title">KEPP-308H</h4>
                         <p class="card-text">Body</p>
                         <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                     </div>
@@ -1100,7 +1096,7 @@
                         <h4 class="card-title">KEPP-325</h4>
                         <p class="card-text">Durable and stylish jali set, perfect for both residential and commercial spaces.</p>
                         <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                     </div>
@@ -1114,7 +1110,7 @@
                         <h4 class="card-title">KEPP-325H</h4>
                         <p class="card-text">Reinforced jali set, providing extra strength and long-lasting performance.</p>
                         <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                     </div>
@@ -1128,7 +1124,7 @@
                         <h4 class="card-title">KEPP-327</h4>
                         <p class="card-text">Sturdy jali set, designed for seamless water drainage with a high-quality finish.</p>
                         <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                     </div>
@@ -1142,7 +1138,7 @@
                         <h4 class="card-title">KEPP-329</h4>
                         <p class="card-text">High-performance jali set, ensuring smooth water flow and efficient drainage.</p>
                         <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                     </div>
@@ -1156,7 +1152,7 @@
                         <h4 class="card-title">KEPP-329H</h4>
                         <p class="card-text">Heavy-duty jali set, engineered for strength and reliability in demanding environments.</p>
                         <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                     </div>
@@ -1168,10 +1164,10 @@
 
 
     <!-- This 5 is the product carousel section SQUARE & ANTI ROUND COCKROACH TRAP -->
-    <div class="container-xxl px-5 pb-5">
-        <div class="section-title text-start  wow fadeInUp" data-wow-delay="0.1s">
-            <h1 class="display-6  pb-4">SQUARE & ANTI ROUND COCKROACH TRAP</h1>
-            <p class="fs-5 fw-medium fst-italic text-primary">Our Products</p>
+    <div class="container-xxl pb-5 px-5">
+        <div class="text-start fadeInUp section-title wow" data-wow-delay="0.1s">
+            <h1 class="display-6 pb-4">SQUARE & ANTI ROUND COCKROACH TRAP</h1>
+            <p class="text-primary fs-5 fst-italic fw-medium">Our Products</p>
         </div>
         <div class="testimonial-slider">
             <!-- Card -->
@@ -1182,7 +1178,7 @@
                         <h4 class="card-title">KEPP-281</h4>
                         <p class="card-text">Efficient cockroach trap with a square design, ensuring hygienic and odor-free drainage.</p>
                         <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                     </div>
@@ -1196,7 +1192,7 @@
                         <h4 class="card-title">KEPP-281H</h4>
                         <p class="card-text">Heavy-duty cockroach trap, built for enhanced durability and long-lasting performance.</p>
                         <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                     </div>
@@ -1210,7 +1206,7 @@
                         <h4 class="card-title">KEPP-284</h4>
                         <p class="card-text">Reliable cockroach trap, designed to prevent insect entry while maintaining smooth water flow.</p>
                         <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                     </div>
@@ -1224,7 +1220,7 @@
                         <h4 class="card-title">KEPP-284H</h4>
                         <p class="card-text">Reinforced cockroach trap, offering superior strength for high-traffic areas.</p>
                         <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                     </div>
@@ -1238,7 +1234,7 @@
                         <h4 class="card-title">KEPP-287</h4>
                         <p class="card-text">Compact and effective cockroach trap, ensuring a clean and pest-free drainage system.</p>
                         <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                     </div>
@@ -1252,7 +1248,7 @@
                         <h4 class="card-title">KEPP-287H</h4>
                         <p class="card-text"> Sturdy cockroach trap, designed for heavy-duty use with excellent drainage efficiency.</p>
                         <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                     </div>
@@ -1266,7 +1262,7 @@
                         <h4 class="card-title">KEPP-290</h4>
                         <p class="card-text">Modern cockroach trap, featuring an advanced mechanism for blocking pests and odors.</p>
                         <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                     </div>
@@ -1280,7 +1276,7 @@
                         <h4 class="card-title">KEPP-293</h4>
                         <p class="card-text">High-performance cockroach trap, preventing blockages while maintaining hygiene.</p>
                         <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                     </div>
@@ -1294,7 +1290,7 @@
                         <h4 class="card-title">KEPP-293H</h4>
                         <p class="card-text">Heavy-duty cockroach trap, engineered for tough environments requiring strong drainage solutions.</p>
                         <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                     </div>
@@ -1308,7 +1304,7 @@
                         <h4 class="card-title">KEPP-311</h4>
                         <p class="card-text"> Premium cockroach trap, combining durability with effective insect prevention.</p>
                         <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                     </div>
@@ -1322,7 +1318,7 @@
                         <h4 class="card-title">KEPP-311H</h4>
                         <p class="card-text">Reinforced cockroach trap, offering extra strength and optimal drainage performance.</p>
                         <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                     </div>
@@ -1336,7 +1332,7 @@
                         <h4 class="card-title">KEPP-313</h4>
                         <p class="card-text">Sleek and efficient cockroach trap, designed to prevent insects and maintain a clean space.</p>
                         <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                     </div>
@@ -1350,7 +1346,7 @@
                         <h4 class="card-title">KEPP-313H</h4>
                         <p class="card-text"> Heavy-duty cockroach trap, ideal for commercial and residential applications.</p>
                         <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                     </div>
@@ -1364,7 +1360,7 @@
                         <h4 class="card-title">KEPP-315</h4>
                         <p class="card-text">Sturdy cockroach trap, ensuring long-lasting protection against pests and odors.</p>
                         <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                     </div>
@@ -1378,7 +1374,7 @@
                         <h4 class="card-title">KEPP-315H</h4>
                         <p class="card-text">High-strength cockroach trap, perfect for heavy water flow areas.</p>
                         <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                     </div>
@@ -1392,7 +1388,7 @@
                         <h4 class="card-title">KEPP-317</h4>
                         <p class="card-text">Compact and modern cockroach trap, designed for seamless drainage and hygiene.</p>
                         <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                     </div>
@@ -1406,7 +1402,7 @@
                         <h4 class="card-title">KEPP-319</h4>
                         <p class="card-text">Reliable cockroach trap, preventing pests while allowing efficient water flow.</p>
                         <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                     </div>
@@ -1420,7 +1416,7 @@
                         <h4 class="card-title">KEPP-319H</h4>
                         <p class="card-text">Heavy-duty cockroach trap, built for durability and enhanced drainage performance.</p>
                         <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                     </div>
@@ -1432,9 +1428,9 @@
 
     <!-- This 6 is the product carousel section NEXA & CLEAN SCAPE DRAIN MANHOLE COVER -->
     <div class="container-xxl px-5">
-        <div class="section-title text-start  wow fadeInUp" data-wow-delay="0.1s" >
-            <h1 class="display-6  pb-4">NEXA & CLEAN & MANHOLE &  SCAPE DRAIN</h1>
-            <p class="fs-5 fw-medium fst-italic text-primary">Our Products</p>
+        <div class="text-start fadeInUp section-title wow" data-wow-delay="0.1s" >
+            <h1 class="display-6 pb-4">NEXA & CLEAN & MANHOLE &  SCAPE DRAIN</h1>
+            <p class="text-primary fs-5 fst-italic fw-medium">Our Products</p>
         </div>
         <div class="testimonial-slider">
             <!-- Card -->
@@ -1445,7 +1441,7 @@
                         <h4 class="card-title">CLEAN SCAPE DRAIN</h4>
                         <p class="card-text"> A high-performance drain system designed for superior water flow management while maintaining hygiene and cleanliness in modern spaces.</p>
                         <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                     </div>
@@ -1459,7 +1455,7 @@
                         <h4 class="card-title">NEXA SQUARE DRAIN</h4>
                         <p class="card-text"> A sleek and durable square drain, offering efficient drainage with a contemporary design for both residential and commercial applications.</p>
                         <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                     </div>
@@ -1473,7 +1469,7 @@
                         <h4 class="card-title">MANHOLE COVER</h4>
                         <p class="card-text">A durable access point for underground drainage and sewage systems, ensuring easy maintenance, inspection, and long-lasting performance.</p>
                         <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                     </div>
@@ -1485,8 +1481,8 @@
 
     <!-- This 7 is the product carousel section TRIANGLE & ROOF / BALCONY / TERRACE DRAINER -->
     <div class="container-xxl px-5">
-        <div class="section-title text-start  wow fadeInUp " data-wow-delay="0.1s">
-            <p class="fs-5 fw-medium fst-italic text-primary">Our Products</p>
+        <div class="text-start fadeInUp section-title wow" data-wow-delay="0.1s">
+            <p class="text-primary fs-5 fst-italic fw-medium">Our Products</p>
             <h1 class="display-6 pb-4">TRIANGLE & ROOF / BALCONY / TERRACE DRAINER</h1>
         </div>
         <div class="testimonial-slider">
@@ -1498,7 +1494,7 @@
                         <h4 class="card-title">CLEAN SCAPE DRAIN</h4>
                         <p class="card-text">A premium drainage solution designed for efficient water management on roofs, balconies, and terraces, ensuring durability and long-term performance.</p>
                         <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                     </div>
@@ -1512,7 +1508,7 @@
                         <h4 class="card-title">NEXA SQUARE DRAIN</h4>
                         <p class="card-text">A modern square drain ideal for terrace and balcony drainage, offering superior water flow and preventing water accumulation in outdoor spaces.</p>
                         <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                     </div>
@@ -1526,7 +1522,7 @@
                         <h4 class="card-title">TRIANGLE FLOOR DRAIN </h4>
                         <p class="card-text">A modern and efficient drain designed for optimal water flow, ideal for corners and compact spaces.</p>
                         <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                     </div>
@@ -1540,7 +1536,7 @@
                         <h4 class="card-title">TRIANGLE FLOOR DRAIN </h4>
                         <p class="card-text">A modern and efficient drain designed for optimal water flow, ideal for corners and compact spaces.</p>
                         <div class="d-flex align-items-center justify-content-around pb-3">
-                        <a href="" class="btn btn-primary rounded-pill  px-3">Inquiry</a>
+                        <a href="" class="btn btn-primary rounded-pill px-3">Inquiry</a>
                         <a href="" class="text-danger">Read me <i class="bi bi-chevron-double-right"></i></a>
                     </div>
                     </div>
@@ -1552,98 +1548,98 @@
 
 
     <!-- This is the product section -->
-     <div class="d-none container">
-        <div class="section-title text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-            <p class="fs-5 fw-medium fst-italic text-primary">Our Products</p>
-            <h1 class="display-6  pb-4">Our <span class="text-primary">Product</span> </h1>
+     <div class="container d-none">
+        <div class="text-center fadeInUp mx-auto section-title wow" data-wow-delay="0.1s" style="max-width: 500px;">
+            <p class="text-primary fs-5 fst-italic fw-medium">Our Products</p>
+            <h1 class="display-6 pb-4">Our <span class="text-primary">Product</span> </h1>
         </div>
         <div class="row justify-content-center">
             <!-- This is the drain steel section -->
             <div class="col-md-3 pt-3">
-                <div class="card text-start border-0 p-1 rounded-5 shadow-lg overflow-hidden">
+                <div class="card border-0 p-1 rounded-5 shadow-lg text-start overflow-hidden">
                     <img class="card-img-top" src="img/product/p1.png" alt="Title" />
                     <div class="card-body bg-light">
                         <h4 class="card-title">AquaFlow Shield</h4>
                         <p class="card-text">Built from stainless steel, AquaFlow Shield resists rust and ensures smooth water drainage with a sleek slotted design.</p>
-                    <button class="btn btn-primary w-100 " >Inquiry Now</button>
+                    <button class="btn btn-primary w-100" >Inquiry Now</button>
                     </div>
                 </div>
             </div>
             <!-- Card -->
             <div class="col-md-3 pt-3">
-                <div class="card text-start border-0 p-1 rounded-5 shadow-lg overflow-hidden">
+                <div class="card border-0 p-1 rounded-5 shadow-lg text-start overflow-hidden">
                     <img class="card-img-top" src="img/product/p2.png" alt="Title" />
                     <div class="card-body bg-light">
                         <h4 class="card-title">HydroGuard Pro</h4>
                         <p class="card-text">HydroGuard Pro features strong steel and precise perforations, keeping your bathroom drain clean and efficient.</p>
-                    <button class="btn btn-primary w-100 " >Inquiry Now</button>
+                    <button class="btn btn-primary w-100" >Inquiry Now</button>
                     </div>
                 </div>
             </div>
             <!-- Card -->
             <div class="col-md-3 pt-3">
-                <div class="card text-start border-0 p-1 rounded-5 shadow-lg overflow-hidden">
+                <div class="card border-0 p-1 rounded-5 shadow-lg text-start overflow-hidden">
                     <img class="card-img-top" src="img/product/p8n.png" alt="Title" />
                     <div class="card-body bg-light">
                         <h4 class="card-title">StreamLine Grate</h4>
                         <p class="card-text">StreamLine Grate offers a minimalist steel design, ensuring corrosion resistance and smooth water flow.</p>
-                    <button class="btn btn-primary w-100 " >Inquiry Now</button>
+                    <button class="btn btn-primary w-100" >Inquiry Now</button>
                     </div>
                 </div>
             </div>
 
             <!-- This is the shower section -->
             <div class="col-md-3 pt-3">
-                <div class="card text-start border-0 p-1 rounded-5 shadow-lg overflow-hidden">
+                <div class="card border-0 p-1 rounded-5 shadow-lg text-start overflow-hidden">
                     <img class="card-img-top" src="img/product/p9.png" alt="Title" />
                     <div class="card-body bg-light">
                         <h4 class="card-title">RainFlow Bliss</h4>
                         <p class="card-text">Experience the soothing touch of RainFlow Serenity, offering a gentle rain-like flow for pure relaxation every day.</p>
-                    <button class="btn btn-primary w-100 " >Inquiry Now</button>
+                    <button class="btn btn-primary w-100" >Inquiry Now</button>
                     </div>
                 </div>
             </div>
             <!-- Card -->
             <div class="col-md-3 pt-3">
-                <div class="card text-start border-0 p-1 rounded-5 shadow-lg overflow-hidden">
+                <div class="card border-0 p-1 rounded-5 shadow-lg text-start overflow-hidden">
                     <img class="card-img-top" src="img/product/p10.png" alt="Title" />
                     <div class="card-body bg-light">
                         <h4 class="card-title">AquaMist Elegance</h4>
                         <p class="card-text">AquaMist Harmony combines sleek design and versatile spray options for a refreshing shower to match your mood.</p>
-                    <button class="btn btn-primary w-100 " >Inquiry Now</button>
+                    <button class="btn btn-primary w-100" >Inquiry Now</button>
                     </div>
                 </div>
             </div>
             <!-- Card -->
             <div class="col-md-3 pt-3">
-                <div class="card text-start border-0 p-1 rounded-5 shadow-lg overflow-hidden">
+                <div class="card border-0 p-1 rounded-5 shadow-lg text-start overflow-hidden">
                     <img class="card-img-top" src="img/product/p11.png" alt="Title" />
                     <div class="card-body bg-light">
                         <h4 class="card-title">HydroPulse Revive</h4>
                         <p class="card-text">Rejuvenate with HydroPulse Energy, featuring invigorating jets to relax your muscles and revitalize your senses.</p>
-                    <button class="btn btn-primary w-100 " >Inquiry Now</button>
+                    <button class="btn btn-primary w-100" >Inquiry Now</button>
                     </div>
                 </div>
             </div>
             <!-- Card -->
             <div class="col-md-3 pt-3">
-                <div class="card text-start border-0 p-1 rounded-5 shadow-lg overflow-hidden">
+                <div class="card border-0 p-1 rounded-5 shadow-lg text-start overflow-hidden">
                     <img class="card-img-top" src="img/product/p12.png" alt="Title" />
                     <div class="card-body bg-light">
                         <h4 class="card-title">HydroPulse Revive</h4>
                         <p class="card-text">Rejuvenate with HydroPulse Energy, featuring invigorating jets to relax your muscles and revitalize your senses.</p>
-                    <button class="btn btn-primary w-100 " >Inquiry Now</button>
+                    <button class="btn btn-primary w-100" >Inquiry Now</button>
                     </div>
                 </div>
             </div>
             <!-- Card -->
             <div class="col-md-3 pt-3">
-                <div class="card text-start border-0 p-1 rounded-5 shadow-lg overflow-hidden">
+                <div class="card border-0 p-1 rounded-5 shadow-lg text-start overflow-hidden">
                     <img class="card-img-top" src="img/product/p13.png" alt="Title" />
                     <div class="card-body bg-light">
                         <h4 class="card-title">HydroPulse Revive</h4>
                         <p class="card-text">Rejuvenate with HydroPulse Energy, featuring invigorating jets to relax your muscles and revitalize your senses.</p>
-                    <button class="btn btn-primary w-100 " >Inquiry Now</button>
+                    <button class="btn btn-primary w-100" >Inquiry Now</button>
                     </div>
                 </div>
             </div>
@@ -1653,17 +1649,17 @@
 
     
     <!-- this is the details Start -->
-    <div class="container-fluid video my-5">
+    <div class="container-fluid my-5 video">
         <div class="container">
-            <div class="row g-0 justify-content-center align-items-center">
-                <div class="col-lg-6 py-5 wow fadeIn" data-wow-delay="0.1s">
-                    <div class="py-5 text-center">
-                        <h1 class="display-6 mb-4 text-primary">Commited in Quality</span></h1>
-                        <h5 class="fw-normal lh-base fst-italic text-white mb-5">We prioritize excellence in every detail, ensuring durable, reliable, and innovative solutions. Quality isn’t just a standard—it’s our promise.</h5>
-                        <div class="row g-4 mb-5 text-start">
+            <div class="g-0 row align-items-center justify-content-center">
+                <div class="col-lg-6 fadeIn py-5 wow" data-wow-delay="0.1s">
+                    <div class="text-center py-5">
+                        <h1 class="display-6 text-primary mb-4">Commited in Quality</span></h1>
+                        <h5 class="text-white fst-italic fw-normal lh-base mb-5">We prioritize excellence in every detail, ensuring durable, reliable, and innovative solutions. Quality isn’t just a standard—it’s our promise.</h5>
+                        <div class="g-4 row text-start mb-5">
                             <div class="col-sm-6">
                                 <div class="d-flex align-items-center">
-                                    <div class="flex-shrink-0 btn-lg-square bg-white text-primary rounded-circle me-3">
+                                    <div class="flex-shrink-0 btn-lg-square bg-white rounded-circle text-primary me-3">
                                         <i class="fa fa-check"></i>
                                     </div>
                                     <span class="text-light">No insect menace through floor drain.</span>
@@ -1671,7 +1667,7 @@
                             </div>
                             <div class="col-sm-6">
                                 <div class="d-flex align-items-center">
-                                    <div class="flex-shrink-0 btn-lg-square bg-white text-primary rounded-circle me-3">
+                                    <div class="flex-shrink-0 btn-lg-square bg-white rounded-circle text-primary me-3">
                                         <i class="fa fa-check"></i>
                                     </div>
                                     <span class="text-light">Though time to insects like cockroaches etc.</span>
@@ -1679,7 +1675,7 @@
                             </div>
                             <div class="col-sm-6">
                                 <div class="d-flex align-items-center">
-                                    <div class="flex-shrink-0 btn-lg-square bg-white text-primary rounded-circle me-3">
+                                    <div class="flex-shrink-0 btn-lg-square bg-white rounded-circle text-primary me-3">
                                         <i class="fa fa-check"></i>
                                     </div>
                                     <span class="text-light">Safe for children and elders.</span>
@@ -1687,18 +1683,18 @@
                             </div>
                             <div class="col-sm-6">
                                 <div class="d-flex align-items-center">
-                                    <div class="flex-shrink-0 btn-lg-square bg-white text-primary rounded-circle me-3">
+                                    <div class="flex-shrink-0 btn-lg-square bg-white rounded-circle text-primary me-3">
                                         <i class="fa fa-check"></i>
                                     </div>
                                     <span class="text-light">Prevents foul odour</span>
                                 </div>
                             </div>
                         </div>
-                        <a class="btn btn-primary rounded-pill py-3 px-5 " href="">Explore More</a>
+                        <a class="btn btn-primary rounded-pill px-5 py-3" href="">Explore More</a>
                     </div>
                 </div>
-                <!-- <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                    <div class="h-100 d-flex align-items-center justify-content-center" style="min-height: 300px;">
+                <!-- <div class="col-lg-6 fadeIn wow" data-wow-delay="0.5s">
+                    <div class="d-flex align-items-center h-100 justify-content-center" style="min-height: 300px;">
                         <button type="button" class="btn-play" data-bs-toggle="modal"
                             data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-bs-target="#videoModal">
                             <span></span>
@@ -1733,25 +1729,25 @@
 
 
     <!-- this is the gallery section Start -->
-    <div id="store" class=" d-none container-xxl py-5">
+    <div id="store" class="container-xxl d-none py-5">
         <div class="container">
-            <div class="section-title text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+            <div class="text-center fadeInUp mx-auto section-title wow" data-wow-delay="0.1s" style="max-width: 500px;">
                 <i class="bi bi-card-image"></i>
                 <h4 class="text-center">Gallery section</h4>
                 <h3 class="">Transform your perspective! Experience the magic in our gallery</h3>
             </div>
-            <div class="row row-cols-md-5  row-cols-1">
+            <div class="row row-cols-1 row-cols-md-5">
                 <!-- card -->
-                <div class=" col wow fadeInUp gx-0" data-wow-delay="0.1s">
-                    <div class="store-item position-relative text-center">
+                <div class="col fadeInUp gx-0 wow" data-wow-delay="0.1s">
+                    <div class="position-relative text-center store-item">
                         <img class="img-fluid" src="https://bath-fixtures.myshopify.com/cdn/shop/files/img-14.jpg?v=1613548633" alt="">
                         <div class="p-4">
                             <div class="text-center mb-3">
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
+                                <small class="text-primary fa fa-star"></small>
+                                <small class="text-primary fa fa-star"></small>
+                                <small class="text-primary fa fa-star"></small>
+                                <small class="text-primary fa fa-star"></small>
+                                <small class="text-primary fa fa-star"></small>
                             </div>
                             <h4 class="mb-3">Mount Toilet</h4>
                             <!-- <p>Aliqu diam amet diam et eos. Clita erat ipsum lorem erat ipsum lorem sit sed</p> -->
@@ -1764,21 +1760,21 @@
                                     30% OFF</h3>
                                     <a href="" class="text-center text-white">Read me <i class="bi bi-chevron-double-right"></i></a>
                             </div>
-                            <!-- <a href="" class="btn btn-dark rounded-pill py-2 px-4 m-2">Add to Cart <i class="fa fa-cart-plus ms-2"></i></a> -->
+                            <!-- <a href="" class="btn btn-dark m-2 rounded-pill px-4 py-2">Add to Cart <i class="fa fa-cart-plus ms-2"></i></a> -->
                         </div>
                     </div>
                 </div>
                 <!-- card -->
-                <div class=" col wow fadeInUp gx-0" data-wow-delay="0.3s">
-                    <div class="store-item position-relative text-center">
+                <div class="col fadeInUp gx-0 wow" data-wow-delay="0.3s">
+                    <div class="position-relative text-center store-item">
                         <img class="img-fluid" src="https://bath-fixtures.myshopify.com/cdn/shop/files/img-15_276127a9-2f02-4359-9f36-b3cac676b500.jpg?v=1613548656" alt="">
                         <div class="p-4">
                             <div class="text-center mb-3">
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
+                                <small class="text-primary fa fa-star"></small>
+                                <small class="text-primary fa fa-star"></small>
+                                <small class="text-primary fa fa-star"></small>
+                                <small class="text-primary fa fa-star"></small>
+                                <small class="text-primary fa fa-star"></small>
                             </div>
                             <h4 class="mb-3">Glossy White Vanity</h4>
                             <!-- <p>Aliqu diam amet diam et eos. Clita erat ipsum lorem erat ipsum lorem sit sed</p> -->
@@ -1795,16 +1791,16 @@
                     </div>
                 </div>
                 <!-- card -->
-                <div class=" col wow fadeInUp gx-0" data-wow-delay="0.5s">
-                    <div class="store-item position-relative text-center">
+                <div class="col fadeInUp gx-0 wow" data-wow-delay="0.5s">
+                    <div class="position-relative text-center store-item">
                         <img class="img-fluid" src="https://bath-fixtures.myshopify.com/cdn/shop/files/img-16.jpg?v=1613548633" alt="">
                         <div class="p-4">
                             <div class="text-center mb-3">
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
+                                <small class="text-primary fa fa-star"></small>
+                                <small class="text-primary fa fa-star"></small>
+                                <small class="text-primary fa fa-star"></small>
+                                <small class="text-primary fa fa-star"></small>
+                                <small class="text-primary fa fa-star"></small>
                             </div>
                             <h4 class="mb-3">Hot Bath Tub</h4>
                             <!-- <p>Aliqu diam amet diam et eos. Clita erat ipsum lorem erat ipsum lorem sit sed</p> -->
@@ -1821,16 +1817,16 @@
                     </div>
                 </div>
                 <!-- card -->
-                <div class=" col wow fadeInUp gx-0" data-wow-delay="0.5s">
-                    <div class="store-item position-relative text-center">
+                <div class="col fadeInUp gx-0 wow" data-wow-delay="0.5s">
+                    <div class="position-relative text-center store-item">
                         <img class="img-fluid" src="https://bath-fixtures.myshopify.com/cdn/shop/files/img-17_5ba2def2-011c-43e9-b4c2-a238510d8fb0.jpg?v=1613548656" alt="">
                         <div class="p-4">
                             <div class="text-center mb-3">
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
+                                <small class="text-primary fa fa-star"></small>
+                                <small class="text-primary fa fa-star"></small>
+                                <small class="text-primary fa fa-star"></small>
+                                <small class="text-primary fa fa-star"></small>
+                                <small class="text-primary fa fa-star"></small>
                             </div>
                             <h4 class="mb-3">Rain Shower</h4>
                             <!-- <p>Aliqu diam amet diam et eos. Clita erat ipsum lorem erat ipsum lorem sit sed</p> -->
@@ -1847,16 +1843,16 @@
                     </div>
                 </div>
                 <!-- card -->
-                <div class=" col wow fadeInUp gx-0" data-wow-delay="0.5s">
-                    <div class="store-item position-relative text-center">
+                <div class="col fadeInUp gx-0 wow" data-wow-delay="0.5s">
+                    <div class="position-relative text-center store-item">
                         <img class="img-fluid" src="https://bath-fixtures.myshopify.com/cdn/shop/files/img-18_b6175838-cdff-4a02-9490-d05c4984350a.jpg?v=1613548656" alt="">
                         <div class="p-4">
                             <div class="text-center mb-3">
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
+                                <small class="text-primary fa fa-star"></small>
+                                <small class="text-primary fa fa-star"></small>
+                                <small class="text-primary fa fa-star"></small>
+                                <small class="text-primary fa fa-star"></small>
+                                <small class="text-primary fa fa-star"></small>
                             </div>
                             <h4 class="mb-3">Adjustable Tub</h4>
                             <!-- <p>Aliqu diam amet diam et eos. Clita erat ipsum lorem erat ipsum lorem sit sed</p> -->
@@ -1874,8 +1870,8 @@
                 </div>
               
                 
-                <!-- <div class="col-12 text-center wow fadeInUp" data-wow-delay="0.1s">
-                    <a href="" class="btn btn-primary rounded-pill py-3 px-5">View More Products</a>
+                <!-- <div class="col-12 text-center fadeInUp wow" data-wow-delay="0.1s">
+                    <a href="" class="btn btn-primary rounded-pill px-5 py-3">View More Products</a>
                 </div> -->
             </div>
         </div>
@@ -1884,37 +1880,37 @@
 
 
     <!-- Testimonial Start -->
-    <div class="container-fluid testimonial py-5 my-5">
+    <div class="container-fluid my-5 py-5 testimonial">
         <div class="container py-5">
-            <div class="section-title text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                <p class="fs-5 fw-medium fst-italic text-white">Testimonial</p>
+            <div class="text-center fadeInUp mx-auto section-title wow" data-wow-delay="0.1s" style="max-width: 500px;">
+                <p class="text-white fs-5 fst-italic fw-medium">Testimonial</p>
                 <h1 class="display-6 text-white">What our clients say </h1>
             </div>
-            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.5s">
-                <div class="testimonial-item p-4 p-lg-5">
+            <div class="fadeInUp owl-carousel testimonial-carousel wow" data-wow-delay="0.5s">
+                <div class="p-4 p-lg-5 testimonial-item">
                     <p class="mb-4">“I am thoroughly impressed with the quality of the products. The drains and showers are not only functional but also add a modern touch to my bathroom. Highly recommended!”</p>
                     <div class="d-flex align-items-center justify-content-center">
-                        <img class="img-fluid flex-shrink-0" src="https://www.hotazy.com/images/male.png" alt="">
+                        <img class="flex-shrink-0 img-fluid" src="https://www.hotazy.com/images/male.png" alt="">
                         <div class="text-start ms-3">
                             <h5>Arun kumar</h5>
                             <!-- <span class="text-primary">Profession</span> -->
                         </div>
                     </div>
                 </div>
-                <div class="testimonial-item p-4 p-lg-5">
+                <div class="p-4 p-lg-5 testimonial-item">
                     <p class="mb-4">“The drains work flawlessly, and the showers provide an incredible experience. Installation was simple, and the durability is unmatched. Truly a great choice for any home.”</p>
                     <div class="d-flex align-items-center justify-content-center">
-                        <img class="img-fluid flex-shrink-0" src="https://www.hotazy.com/images/male.png" alt="">
+                        <img class="flex-shrink-0 img-fluid" src="https://www.hotazy.com/images/male.png" alt="">
                         <div class="text-start ms-3">
                             <h5>kunal thakur</h5>
                             <!-- <span class="text-primary">Profession</span> -->
                         </div>
                     </div>
                 </div>
-                <div class="testimonial-item p-4 p-lg-5">
+                <div class="p-4 p-lg-5 testimonial-item">
                     <p class="mb-4">“These products are worth every penny! The rust-resistant drains and luxurious showers have transformed my bathroom. I couldn’t be happier with my purchase.”</p>
                     <div class="d-flex align-items-center justify-content-center">
-                        <img class="img-fluid flex-shrink-0" src="https://www.hotazy.com/images/female.png" alt="">
+                        <img class="flex-shrink-0 img-fluid" src="https://www.hotazy.com/images/female.png" alt="">
                         <div class="text-start ms-3">
                             <h5>Gunjan</h5>
                             <!-- <span class="text-primary">Profession</span> -->
@@ -1928,16 +1924,16 @@
 
 
     <!-- Contact Start -->
-    <div id="contact" class=" container-xxl contact py-5">
+    <div id="contact" class="container-xxl contact py-5">
         <div class="container">
-            <div class="section-title text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                <p class="fs-5 fw-medium fst-italic text-primary">Contact Us</p>
+            <div class="text-center fadeInUp mx-auto section-title wow" data-wow-delay="0.1s" style="max-width: 500px;">
+                <p class="text-primary fs-5 fst-italic fw-medium">Contact Us</p>
                 <h1 class="display-6">If You Have Any Query, Please Contact Us</h1>
             </div>
-            <div class="row g-5 mb-5">
-                <div class="col-md-4 text-center wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="btn-square mx-auto mb-3">
-                        <i class="fa fa-envelope fa-2x text-white"></i>
+            <div class="g-5 row mb-5">
+                <div class="col-md-4 text-center fadeInUp wow" data-wow-delay="0.3s">
+                    <div class="btn-square mb-3 mx-auto">
+                        <i class="text-white fa fa-2x fa-envelope"></i>
                     </div>
                     <p class="mb-2">
                         <a href="mailto:info@kepprabath.com" class="text-dark">
@@ -1946,29 +1942,29 @@
                       </p>
                     <!-- <p class="mb-0">support@example.com</p> -->
                 </div>
-                <div class="col-md-4 text-center wow fadeInUp" data-wow-delay="0.4s">
-                    <div class="btn-square mx-auto mb-3">
-                        <i class="fa fa-phone fa-2x text-white"></i>
+                <div class="col-md-4 text-center fadeInUp wow" data-wow-delay="0.4s">
+                    <div class="btn-square mb-3 mx-auto">
+                        <i class="text-white fa fa-2x fa-phone"></i>
                     </div>
                     <p class="mb-2">+91 959 905 0508</p>
                     <p class="mb-0">+91 999 905 9808</p>
                 </div>
-                <div class="col-md-4 text-center wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="btn-square mx-auto mb-3">
-                        <i class="fa fa-map-marker-alt fa-2x text-white"></i>
+                <div class="col-md-4 text-center fadeInUp wow" data-wow-delay="0.5s">
+                    <div class="btn-square mb-3 mx-auto">
+                        <i class="text-white fa fa-2x fa-map-marker-alt"></i>
                     </div>
                     <p class="mb-2">RZ-16A/15E Street No.2,</p>
                     <p class="mb-0">Main Sagar Pur, New Delhi-110046</p>
                 </div>
             </div>
-            <div class="row g-5">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="g-5 row">
+                <div class="col-lg-6 fadeInUp wow" data-wow-delay="0.1s">
                     
-                   <img src="img/kmap.jpg" alt="" class="img-fluid rounded-4">
+                   <img src="img/kmap.jpg" alt="" class="rounded-4 img-fluid">
                 </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="col-lg-6 fadeInUp wow" data-wow-delay="0.5s">
                     <div class="h-100">
-                        <iframe class="w-100 rounded-4"
+                        <iframe class="rounded-4 w-100"
                         src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2768.530469050741!2d77.10373597549976!3d28.60420477568028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjjCsDM2JzE1LjEiTiA3N8KwMDYnMjIuNyJF!5e1!3m2!1sen!2sin!4v1741601731637!5m2!1sen!2sin"
                         frameborder="0" style="height: 100%; min-height: 300px; border:0;" allowfullscreen="" aria-hidden="false"
                         tabindex="0"></iframe>
@@ -1982,9 +1978,9 @@
 
     
     <!-- this is the Blog section Start -->
-    <div id="store" class="d-none container-xxl py-5">
+    <div id="store" class="container-xxl d-none py-5">
         <div class="container">
-            <div class="section-title text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+            <div class="text-center fadeInUp mx-auto section-title wow" data-wow-delay="0.1s" style="max-width: 500px;">
                 
                 <h3 class="">Blog Section</h3>
             </div>
@@ -2026,8 +2022,8 @@
                  </div>
                 </div>
              </div>
-                <!-- <div class="col-12 text-center wow fadeInUp" data-wow-delay="0.1s">
-                    <a href="" class="btn btn-primary rounded-pill py-3 px-5">View More Products</a>
+                <!-- <div class="col-12 text-center fadeInUp wow" data-wow-delay="0.1s">
+                    <a href="" class="btn btn-primary rounded-pill px-5 py-3">View More Products</a>
                 </div> -->
             </div>
         </div>
@@ -2035,11 +2031,11 @@
     <!-- Blog section End -->
 
     <!-- Footer Start -->
-    <div class="container-fluid bg-dark footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container-fluid bg-dark fadeIn footer mt-5 py-5 wow" data-wow-delay="0.1s">
         <div class="container py-5">
-            <div class="row g-5">
+            <div class="g-5 row">
                 <div class="col-lg-3 col-md-6">
-                    <img class="img-fluid w-75" src="img/kplogof.png" alt="kb logo">
+                    <img class="w-75 img-fluid" src="img/kplogof.png" alt="kb logo">
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-primary mb-4">Quick Links</h4>
@@ -2060,16 +2056,16 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-primary mb-4">Shri Krishna Enterprises with ISO Approved</h4>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt text-primary me-3"></i>RZ-16A/15E Street No.2, Main Sagar Pur, New Delhi-110046</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt text-primary me-3"></i>+91 959 905 0508</p>
-                    <p class="mb-2"><i class="fa fa-envelope text-primary me-3"></i><a href="mailto:info@kepprabath.com" class="text-white">
+                    <p class="mb-2"><i class="text-primary fa fa-map-marker-alt me-3"></i>RZ-16A/15E Street No.2, Main Sagar Pur, New Delhi-110046</p>
+                    <p class="mb-2"><i class="text-primary fa fa-phone-alt me-3"></i>+91 959 905 0508</p>
+                    <p class="mb-2"><i class="text-primary fa fa-envelope me-3"></i><a href="mailto:info@kepprabath.com" class="text-white">
                         info@kepprabath.com
                       </a></p>
                     <div class="d-flex pt-3">
-                        <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-primary btn-square rounded-circle me-2" href=""><i class="fa-twitter fab"></i></a>
+                        <a class="btn btn-primary btn-square rounded-circle me-2" href=""><i class="fa-facebook-f fab"></i></a>
+                        <a class="btn btn-primary btn-square rounded-circle me-2" href=""><i class="fa-youtube fab"></i></a>
+                        <a class="btn btn-primary btn-square rounded-circle me-2" href=""><i class="fa-linkedin-in fab"></i></a>
                     </div>
                 </div>
             </div>
@@ -2099,7 +2095,7 @@
     </div>
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+    <a href="#" class="btn btn-lg btn-lg-square btn-primary rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
 
 
     <!-- JavaScript Libraries -->
@@ -2125,8 +2121,8 @@
                 dots: false,
         infinite: true,
         autoplay: true,
-        prevArrow: '<button class="slick-prev bg-dark" aria-label="Previous" type="button" style="width: 40px; height: 40px; border-radius: 50%;"></button>',
-        nextArrow: '<button class="slick-next bg-dark" aria-label="Next" type="button" style="width: 40px; height: 40px; border-radius: 50%;"></button>',
+        prevArrow: '<button class="bg-dark slick-prev" aria-label="Previous" type="button" style="width: 40px; height: 40px; border-radius: 50%;"></button>',
+        nextArrow: '<button class="bg-dark slick-next" aria-label="Next" type="button" style="width: 40px; height: 40px; border-radius: 50%;"></button>',
         speed: 200,
         autoplay: true,
         autoplaySpeed: 2000,
